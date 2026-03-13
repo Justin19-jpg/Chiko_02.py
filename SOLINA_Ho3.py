@@ -10,7 +10,6 @@ result_label = chiko.Label(window, text="Simple Calculator ", bg="white")
 result_label.grid(row=0, column=0, columnspan=2, pady=10)
 
 chiko.Label(window, text="Enter 1st Number:", bg="White").grid(row=1,column=0, padx=10, pady=10)
-
 chiko.Label(window, text="Enter 2nd Number:", bg="White").grid(row=2, column=0, padx=10, pady=10)
 
 entry1 = chiko.Entry(window)
@@ -26,7 +25,6 @@ def add():
     result_label.config(text="The sum " + str(num1) + " + " + str(num2) + " is " + str(answer))
 
 chiko.Button(window, bg="white",text="Add", padx=90, command=add).grid(row=3, column=0, pady=10)
-
 
 def subtract():
     num1 = int(entry1.get())
