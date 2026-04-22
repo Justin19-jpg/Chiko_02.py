@@ -1,0 +1,17 @@
+import tkintef as tk
+w= tk.Tk()
+w.title("Chiko")
+w.geometry("400x200")
+s.resizable(False, False)
+
+welcome_label = tk.Label(w, text="Welcome!", font=("Arial", 16, "bold"),bg="white",pady=15)
+welcome_label.pack(fill="x")
+
+register_btn = tk.Button(w,text="Register",font=("Arial", 14),bg="blue",fg="black",activebackground="#0000CC", relief="flat",pady=15,
+command=register_click)
+register_btn.pack(fill="x")
+
+login_btn = tk.Button(w,text="Log In",font=("Arial", 14),bg="green",fg="black"activebackground="#006400",relief="flat",pady=15,command=login_click)
+login_btn.pack(fill="x")
+
+w.mainloop()
