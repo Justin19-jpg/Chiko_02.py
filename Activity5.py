@@ -1,3 +1,3 @@
-something = eval(input("Input something ...."))	
+C = eval(input("Input something ...."))	
 
-print("The data type is",type(something))
+print("The data type is",type(C))
