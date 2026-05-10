@@ -1,7 +1,7 @@
 from getpass import getpass
 
-username = 'Unkn0wnM3me' 
-password = 'niger'
+username = 'chiko' 
+password = 'soli'
 
 u = input("Enter your Username --> ")
 p = getpass("Enter your Password --> ")
