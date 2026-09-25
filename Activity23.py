@@ -5,8 +5,8 @@ def MyFirstFunction():
     print("Hi")
 
 MyFirstFunction()   
-GreetWithName('Ken')
-GreetWithName('Solo')
-GreetPerson('Dash', 'Sariaya', '18')
+GreetWithName('Just')
+GreetWithName('In')
+GreetPerson('Dash', 'LC', '19')
 print(f"I want to get the summation of {FunctionWithReturn(10)}")
 print(f"The factorial of {Factorial(6)}")
