@@ -1,7 +1,7 @@
 a = 5
 b = 5
-name1 = 'Ken'
-name2 =  'Solo' 
+name1 = 'So'
+name2 =  'li' 
 
 print( a>=b)
 print( name1 == name2)
